@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "7f6670e1-1f3e-4f07-981f-4a3ed37fe796",
+		"name": "MYFRANKWEB-APPLICATION",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19593442"
+	},
+	"item": [
+		{
+			"name": "LOGIN",
+			"request": {
+				"auth": {
+					"type": "bearer"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"username\": \"Bgill1234\", \"password\": \"Bgill1234$\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mfcapiqa04.frankcrum.com/v2/users/sessions",
+					"protocol": "https",
+					"host": [
+						"mfcapiqa04",
+						"frankcrum",
+						"com"
+					],
+					"path": [
+						"v2",
+						"users",
+						"sessions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
